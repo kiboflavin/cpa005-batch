@@ -1,29 +1,29 @@
 {
-    "name": "kiboflavin/cpa005-batch",
-    "type": "library",
-    "description": "PHP CPA005 Batch Library",
-    "keywords": [
-        "php",
-        "cpa005",
-        "cpa",
-        "canadian payments association",
-        "payments canada",
-        "cdnpay"
-    ],
-    "homepage": "https://github.com/kiboflavin/cpa005-batch",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Paul Haggart",
-            "email": "phpdev@bsfh.org"
-        }
-    ],
-    "require": {
-        "php": ">=5.4.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "CPA005\\": "CPA005/"
-        }
+  "name": "kiboflavin/cpa005-batch",
+  "type": "library",
+  "description": "PHP CPA005 Batch Library",
+  "keywords": [
+    "php",
+    "cpa005",
+    "cpa",
+    "canadian payments association",
+    "payments canada",
+    "cdnpay"
+  ],
+  "homepage": "https://github.com/kiboflavin/cpa005-batch",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Paul Haggart",
+      "email": "phpdev@bsfh.org"
     }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "CPA005\\": "CPA005/"
+    }
+  }
 }
